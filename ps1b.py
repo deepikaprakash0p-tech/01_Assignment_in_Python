@@ -1,6 +1,6 @@
 
 # Part B - Saving with a Raise
-#inputs
+#user input values
 annual_salary = float(input("Enter your annual salary: "))
 portion_saved = float(input("Enter the percent of your salary to save : "))
 total_cost = float(input("Enter the cost of your dream home: "))
@@ -23,3 +23,4 @@ while current_savings < down_payment:
         annual_salary += annual_salary * semi_annual_raise
 #output
 print("Number of months:", months)
+

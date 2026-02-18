@@ -14,7 +14,7 @@ high = 10000
 steps = 0
 best_rate = None
 
-# check if possible with 100% savings
+# check the possibility of 100% savings
 current_savings = 0
 salary = annual_salary
 
@@ -50,4 +50,5 @@ else:
             high = rate
 
     print("Best savings rate:", round(best_rate, 4))
+
     print("Steps in bisection search:", steps)

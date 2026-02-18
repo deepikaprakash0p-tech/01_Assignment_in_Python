@@ -1,4 +1,4 @@
-#Inputs as per we required
+#Inputs 
 annual_salary=int(input("Enter your annual salary : "))
 portion_saved=float(input("Enter monthly saving rate : "))
 total_cost=int(input("Enter total cost of dream house : "))
@@ -20,4 +20,5 @@ while current_savings<down_payment:
       months+=1
       
 #Output to show the no.of months
+
 print(f"Number of months : {months}")
